@@ -1,0 +1,12 @@
+mod all_in_one;
+mod cli;
+mod debug;
+mod error;
+mod ingester;
+mod logging;
+mod metrics;
+mod namespace;
+mod querier;
+mod router;
+mod schema;
+mod tracing;
