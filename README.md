@@ -31,5 +31,5 @@ Now you are in the sql client.
 
 For more details go to
 
-[ioxnotes](https://github.com/stormasm/ioxnotes)
-[query.md](https://github.com/stormasm/ioxnotes/blob/main/query.md)
+* [ioxnotes](https://github.com/stormasm/ioxnotes)
+* [query.md](https://github.com/stormasm/ioxnotes/blob/main/query.md)
