@@ -42,7 +42,7 @@ members = [
     "mutable_batch_pb",
     "observability_deps",
     "predicate",
-#   "query_functions",
+#   "query_functions", dependency for predicate
     "schema",
 #   "sqlx-hotswap-pool", dependency for clap_blocks, iox_catalog
 #   "test_helpers", dependency for influxdb_line_protocol
