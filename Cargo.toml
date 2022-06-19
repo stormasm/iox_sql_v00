@@ -36,21 +36,15 @@ members = [
 #    "ioxd_test",
 #    "logfmt",
 #    "metric",
-#    "metric_exporters",
+#   "metric_exporters",
     "mutable_batch",
     "mutable_batch_lp",
     "mutable_batch_pb",
-#    "mutable_batch_tests",
-#    "object_store_metrics",
     "observability_deps",
-#    "packers",
-#    "panic_logging",
-#    "parquet_file",
     "predicate",
 #   "query_functions",
     "schema",
-#   "service_common",
-#   "sqlx-hotswap-pool",
+#   "sqlx-hotswap-pool", dependency for clap_blocks, iox_catalog
 #   "test_helpers", dependency for influxdb_line_protocol
 #   "test_helpers_end_to_end", dependency for influxdb_iox
     "trace",
