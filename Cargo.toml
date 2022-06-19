@@ -47,30 +47,18 @@ members = [
 #    "panic_logging",
 #    "parquet_file",
     "predicate",
-#    "querier",
-#    "query_functions",
-#    "query_tests",
-#    "read_buffer",
-#    "router",
+#   "query_functions",
     "schema",
-#    "service_common",
-#    "service_grpc_influxrpc",
-#    "service_grpc_flight",
-#    "service_grpc_object_store",
-#    "service_grpc_catalog",
-#    "service_grpc_schema",
-#    "service_grpc_testing",
-#    "sqlx-hotswap-pool",
-#    "test_helpers",
-#    "test_helpers_end_to_end",
+#   "service_common",
+#   "sqlx-hotswap-pool",
+#   "test_helpers", dependency for influxdb_line_protocol
+#   "test_helpers_end_to_end", dependency for influxdb_iox
     "trace",
-#   "trace_exporters",
-#    "trace_http",
-#    "tracker",
-#    "trogging",
+#   "trace_exporters", dependecy for clap_blocks
+#   "trace_http", dependency for clap_blocks, write_buffer
+#   "trogging", dependecy for clap_blocks
     "workspace-hack",
     "write_buffer",
-#    "write_summary",
 ]
 default-members = ["influxdb_iox_client"]
 
