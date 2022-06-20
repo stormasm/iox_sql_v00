@@ -7,7 +7,15 @@ This repo just contains the needed crates to build the sql client (and nothing e
 
 It was mainly an experiment to test if it would work.  Once all of the iox crates are published to crates.io then Cargo.toml would pull everything in from there, but for now I have to drag along all of the crates in this repo.
 
-To run this code follow these simple steps:
+One way to run this code in this repo is to
+
+```rust
+cd influxdb_iox
+cargo run sql
+cr sql
+```
+
+Another way to run this code:
 
 ```rust
 alias ioxgs='cd ~/j/tmp06/iox_sql_v00'
