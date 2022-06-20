@@ -11,11 +11,15 @@ One way to run this code in this repo is to
 
 ```rust
 cd influxdb_iox
+cargo build
+
+or
+
 cargo run sql
 cr sql
 ```
 
-Another way to run this code:
+Another way to run this code after doing the **cargo build** above
 
 ```rust
 alias ioxgs='cd ~/j/tmp06/iox_sql_v00'
