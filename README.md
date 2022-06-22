@@ -45,3 +45,9 @@ For more details go to
 
 * [ioxnotes](https://github.com/stormasm/ioxnotes)
 * [query.md](https://github.com/stormasm/ioxnotes/blob/main/query.md)
+
+### References
+
+Comparing this repo to the
+[influxdb_iox_client](https://github.com/stormasm/influxdb_iox_client)
+which has less crates because it is a subset of this repo.
